@@ -17,6 +17,7 @@ RUN apk add --no-cache --virtual .build-deps \
     libxaw-dev \
     libtool \
     make
+RUN apk add --no-cache mariadb-connector-c-dev libffi-dev postgresql-dev
 
 COPY requirements.txt /code/
 RUN apk add --no-cache mariadb-connector-c-dev ;\
