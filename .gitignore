@@ -8,3 +8,4 @@ Team*.zip
 *.key
 *.ovpn
 backend/static
+static
