@@ -1,15 +1,19 @@
-Student Name,DOB,Attendance,Courses,Batch,Paid fees,Passed,Placed,Center
-Bhavya,21/05/2000,89,Computer,A,1,1,1,Eklavya
-Ebrahim,23/05/2000,52,Computer,B,1,1,1,Sandeep
-Darsh,24/03/2000,56,IT,C,0,1,0,Shardha
-Vishwesh,23/06/2000,98,EXTC,A,0,1,1,Dilkap
-Ketan,24/08/1997,48,Chemical,B,0,1,0,Panjab
-Chandana,09/08/1998,65,Chemical,B,1,0,1,Sandeep
-Rohan,09/11/2000,78,Electronics,C,0,0,1,Eklavya
-Rahul,05/12/2001,91,Computer,B,1,0,1,Pillai
-Bhavesh,15/07/2000,74,Production,A,1,1,0,Pillai
-Darshil,12/04/2002,75,IT,A,0,0,0,Amity
-Vishal,13/05/1991,30,Electronics,C,0,0,1,Dilkap
-Vivek,12/06/2003,45,Mechanical,A,1,1,0,Sandeep
-Varun,25/09/2003,36,Electronics,B,1,0,0,Amity
-Ronak,25/09/2000,65,EXTC,C,1,1,1,Amity
+ID,Student Name,DOB,Attendance,Courses,Batch,Paid fees,Passed,Placed,Center
+1,Bhavya,21/05/2000,89,Computer,A,1,1,1,Eklavya
+2,Ebrahim,23/05/2000,52,Computer,B,1,1,1,Sandeep
+3,Darsh,24/03/2000,56,IT,C,0,1,0,Shardha
+4,Vishwesh,23/06/2000,98,EXTC,A,0,1,1,Dilkap
+5,Ketan,24/08/1997,48,Chemical,B,0,1,0,Panjab
+6,Chandana,09/08/1998,65,Chemical,B,1,0,1,Sandeep
+7,Rohan,09/11/2000,78,Electronics,C,0,0,1,Friends
+8,Rahul,05/12/2001,91,Computer,B,1,0,1,Pillai
+9,Bhavesh,15/07/2000,74,Production,A,1,1,0,Somaiya
+10,Darshil,12/04/2002,75,IT,A,0,0,0,Amity
+11,Vishal,13/05/1991,30,Electronics,C,0,0,1,Dilkap
+12,Vivek,12/06/2003,45,Mechanical,A,1,1,0,Ayushman
+13,Varun,25/09/2003,36,Electronics,B,1,0,0,Wamanrao
+14,Ronak,25/09/2000,65,EXTC,C,1,1,1,Lauv
+15,Sanjay,12/03/2000,98,Computer,A,1,1,1,Raman
+16,Subhash,13/03/2000,94,Production,B,1,1,1,Ramnarain
+17,Sahil,19/04/2000,75,IT,C,1,0,1,MCC
+18,Rahil,21/03/2000,35,Mechanical,A,1,1,1,Smpr
