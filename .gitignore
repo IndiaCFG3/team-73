@@ -1,0 +1,10 @@
+venv
+elasticsearch_data
+kibana_data
+db.sqlite3
+Team*.zip
+*.pem
+*.ppk
+*.crt
+*.key
+*.ovpn
