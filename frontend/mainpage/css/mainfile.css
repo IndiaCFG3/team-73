@@ -54,8 +54,7 @@
   }
 
 .orgImgDiv{
-  width:100px;
-  height: 4.375rem;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
