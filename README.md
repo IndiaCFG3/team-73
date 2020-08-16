@@ -27,3 +27,9 @@
   <a href="#howto">How To Use</a> •
   <a href="#credits">Credits</a>
 </p>
+
+
+# How to run ?
+ - Clone the repo
+ - `docker-compose up`
+ - Tada !
