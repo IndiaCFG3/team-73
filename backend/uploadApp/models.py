@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Student(models.Model):
+    timestamp = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=200)
     dob = models.DateField()
     attendance = models.IntegerField()
@@ -17,6 +18,7 @@ class Student(models.Model):
 
 
 class Employee(models.Model):
+    timestamp = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=200)
     designation = models.CharField(max_length=200)
     rating = models.IntegerField()
@@ -29,12 +31,12 @@ class Employee(models.Model):
 
 
 class Centre(models.Model):
+    timestamp = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=200)
     rating = models.IntegerField()
     city = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
     location = models.CharField(max_length=200)
-    hod = models.ForeignKey('Employee', on_delete=models.CASCADE)
 
     def __str__(self):
         return str(self.name)
