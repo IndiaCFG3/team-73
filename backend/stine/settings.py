@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='fallbacksecretkey')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get("DJANGO_DEBUG", default=True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django_elasticsearch_dsl',
     'authApp',
     'uploadApp',
+    'dashboardApp',
+
 ]
 
 MIDDLEWARE = [
@@ -126,7 +128,7 @@ USE_TZ = True
 
 STATIC_URL = '/django_static/'
 STATIC_ROOT = BASE_DIR / 'static'
-LOGIN_REDIRECT_URL = '/admin'
+LOGIN_REDIRECT_URL = '/api/admin'
 
 ELASTICSEARCH_DSL = {
     'default': {
