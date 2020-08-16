@@ -1,8 +1,19 @@
-Name,Rating,City,State,Location,Hod
-Eklavya,7.6,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0766,72.8777]},""properties"": {   ""name"": ""Kandivli""}}",Ganesh
-Sandeep,5.6,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Parel""}}",Gaurav
-Shardha,8.9,Pune,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [18.5204,73.8567]},""properties"": {   ""name"": ""Pimpri""}}",Ramesh
-Dilkap,8.1,Delhi,New Delhi,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [28.7041, 77.1025]},""properties"": {   ""name"": ""Delhi""}}",Mahesh
-Amity,6.3,Chennai,Tamil Nadu,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [13.0827, 80.2707]},""properties"": {   ""name"": ""Chennai""}}",Suresh
-Pillai,7.2,Kolkata,West Bengal,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [18.9894, 73.1175]},""properties"": {   ""name"": ""Panvel""}}",Gautam
-Panjab,8.5,Lucknow,Uttar Pradesh,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.8467, 80.9462]},""properties"": {   ""name"": ""Lucknow""}}",Madhav
+ID,Name,Rating,City,State,Location,Hod,Total_Student
+1,Eklavya,7.6,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0766,72.8777]},""properties"": {   ""name"": ""Kandivli""}}",Ganesh,100
+2,Sandeep,5.6,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Parel""}}",Gaurav,200
+3,Shardha,8.9,Pune,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [18.5204,73.8567]},""properties"": {   ""name"": ""Pimpri""}}",Ramesh,150
+4,Dilkap,8.1,Delhi,New Delhi,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [28.7041, 77.1025]},""properties"": {   ""name"": ""Delhi""}}",Mahesh,170
+5,Amity,6.3,Chennai,Tamil Nadu,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [13.0827, 80.2707]},""properties"": {   ""name"": ""Chennai""}}",Suresh,120
+6,Pillai,7.2,Kolkata,West Bengal,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [18.9894, 73.1175]},""properties"": {   ""name"": ""Panvel""}}",Gautam,400
+7,Panjab,8.5,Lucknow,Uttar Pradesh,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.8467, 80.9462]},""properties"": {   ""name"": ""Lucknow""}}",Madhav,500
+8,Lauv,9.1,Jaipur,Rajasthan,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.9124,75.7873]},""properties"": {   ""name"": ""Jaipur""}}",Manish,250
+9,Ayushman,5.3,Joshpur,Rajasthan,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.2389° N, 73.0243° E]},""properties"": {   ""name"": ""Jpdhpur""}}",Manoj,210
+10,Ramnarain,9.4,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Malad""}}",Mayur,300
+11,Somaiya,8.89,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Bhandup""}}",Akash,350
+12,Wamanrao,7.1,Pune,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Thanr""}}",Apurva,450
+13,MCC,8.3,Jaipur,Rajasthan,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.9124,75.7873]},""properties"": {   ""name"": ""Jaipur""}}",Aayush,410
+14,Raman,9.2,Jaipur,Rajasthan,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [26.9124,75.7873]},""properties"": {   ""name"": ""Jaipur""}}",Arva,420
+15,Friends,8.1,Delhi,New Delhi,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [28.7041, 77.1025]},""properties"": {   ""name"": ""Delhi""}}",Aryan,450
+16,Vaze,8.4,Lucknow,West Bengal,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [18.9894, 73.1175]},""properties"": {   ""name"": ""Kolkata""}}",Ashay,360
+17,Smpr,8.6,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Mulund""}}",Ahan,320
+18,Vidyaben,6.3,Mumbai,Maharashtra,"{""type"": ""Feature"",""geometry"": {""type"": ""Point"",""coordinates"": [19.0760,72.8777]},""properties"": {   ""name"": ""Parel""}}",Atharva,340
