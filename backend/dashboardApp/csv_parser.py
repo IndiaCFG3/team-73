@@ -4,8 +4,8 @@ import csv
 def employee_csv_parser(model, csv_path):
     with open(csv_path) as f:
         reader = csv.reader(f)
-        for i in range(1,len(reader)):
-            row = reader[i]
+        next(reader)
+        for row in reader:
             _, created = Employee.objects.get_or_create(
                 name=row[0],
                 designation=row[1],
@@ -18,8 +18,8 @@ def employee_csv_parser(model, csv_path):
 def studnet_csv_parser(model, csv_path):
     with open(csv_path) as f:
         reader = csv.reader(f)
-        for i in range(1,len(reader)):
-            row = reader[i]
+        next(reader)
+        for row in reader:
             _, created = Student.objects.get_or_create(
                 name=row[0],
                 dob=row[1],
@@ -35,8 +35,8 @@ def studnet_csv_parser(model, csv_path):
 def centre_csv_parser(model, csv_path):
     with open(csv_path) as f:
         reader = csv.reader(f)
-        for i in range(1,len(reader)):
-            row = reader[i]
+        next(reader)
+        for row in reader:
             _, created = Student.objects.get_or_create(
                 name=row[0],
                 rating=row[1],
@@ -49,8 +49,8 @@ def centre_csv_parser(model, csv_path):
 def course_csv_parser(model, csv_path):
     with open(csv_path) as f:
         reader = csv.reader(f)
-        for i in range(1,len(reader)):
-            row = reader[i]
+        next(reader)
+        for row in reader:
             _, created = Student.objects.get_or_create(
                 name=row[0],
                 teacher=Employee.objects.get(name=row[1]),
