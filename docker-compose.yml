@@ -15,6 +15,9 @@ services:
       - django
 
 
+  db:
+    image: postgres:11.3-alpine
+
   elasticsearch:
     image: elasticsearch:7.8.0
     environment:
