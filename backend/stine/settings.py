@@ -128,7 +128,7 @@ USE_TZ = True
 
 STATIC_URL = '/django_static/'
 STATIC_ROOT = BASE_DIR / 'static'
-LOGIN_REDIRECT_URL = '/api/admin'
+LOGIN_REDIRECT_URL = '/api/dashboard'
 
 ELASTICSEARCH_DSL = {
     'default': {
