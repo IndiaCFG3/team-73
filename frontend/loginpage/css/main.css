@@ -39,7 +39,6 @@
 body, html {
 	height: 100%;
   font-family: Poppins-Regular, sans-serif;
-  background-image: linear-gradient(rgb(78, 115, 223) 10%, rgb(34, 74, 190) 100%);
 }
 
 /*---------------------------------------------*/
@@ -180,6 +179,7 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #ebeeef;
+  flex-direction: column;
 }
 
 
@@ -529,4 +529,13 @@ select{
 
 .login100-form-title::before,.login100-form-btn{
   background-color:#4469D7 !important;
+}
+
+img{
+  border-radius:10px;
+}
+
+.limiter,.container-login100{
+  background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
