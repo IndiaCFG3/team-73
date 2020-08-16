@@ -37,6 +37,7 @@ class Centre(models.Model):
     city = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
     location = models.CharField(max_length=200)
+    hod = models.ForeignKey('Employee', on_delete=models.CASCADE)
 
     def __str__(self):
         return str(self.name)
